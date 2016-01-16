@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'pry'
 
-class Downloader
+class CtrlPaint
 
   def initialize
     @count = 0
@@ -42,4 +42,4 @@ class Downloader
   end
 end
 
-Downloader.new
+CtrlPaint.new

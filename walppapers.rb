@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-class Downloader
+class Wallpapers
 
   def initialize
     @count = 0
@@ -63,4 +63,4 @@ class Downloader
   end
 end
 
-Downloader.new
+Wallpapers.new
